@@ -1,0 +1,25 @@
+{
+  "builds": [
+    {
+      "name": "es5",
+      "preset": "es5-bundled",
+      "bundle": false,
+      "addServiceWorker": false,
+      "addPushManifest": false,
+      "insertPrefetchLinks": false
+    },
+    {
+      "name": "es6",
+      "preset": "es6-bundled",
+      "bundle": false,
+      "addServiceWorker": false,
+      "addPushManifest": false,
+      "insertPrefetchLinks": false
+    }
+  ],
+  "lint": {
+    "rules": [
+      "polymer-2"
+    ]
+  }
+}
