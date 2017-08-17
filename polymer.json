@@ -17,7 +17,7 @@
       "insertPrefetchLinks": false
     },
     {
-      "name": "es5",
+      "name": "html-bundled-es5",
       "preset": "es5-bundled",
       "bundle": true,
       "addServiceWorker": false,
@@ -25,7 +25,7 @@
       "insertPrefetchLinks": false
     },
     {
-      "name": "es6",
+      "name": "html-bundled-es6",
       "preset": "es6-bundled",
       "bundle": true,
       "addServiceWorker": false,
