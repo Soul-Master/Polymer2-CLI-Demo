@@ -1,7 +1,7 @@
 {
   "builds": [
     {
-      "name": "es5",
+      "name": "html-import-es5",
       "preset": "es5-bundled",
       "bundle": false,
       "addServiceWorker": false,
@@ -9,9 +9,25 @@
       "insertPrefetchLinks": false
     },
     {
-      "name": "es6",
+      "name": "html-import-es6",
       "preset": "es6-bundled",
       "bundle": false,
+      "addServiceWorker": false,
+      "addPushManifest": false,
+      "insertPrefetchLinks": false
+    },
+    {
+      "name": "es5",
+      "preset": "es5-bundled",
+      "bundle": true,
+      "addServiceWorker": false,
+      "addPushManifest": false,
+      "insertPrefetchLinks": false
+    },
+    {
+      "name": "es6",
+      "preset": "es6-bundled",
+      "bundle": true,
       "addServiceWorker": false,
       "addPushManifest": false,
       "insertPrefetchLinks": false
